@@ -1,0 +1,15 @@
+img.resize {
+  max-width:auto;
+  max-height:auto;
+ }
+
+a
+{
+	font-size: auto;
+}
+
+a:hover
+{
+	color: gray;
+
+}
