@@ -71,6 +71,8 @@ h1 a
    text-decoration: none;
 }
 
+
+
 .header{
   height: 100px;
   background: green;
@@ -98,12 +100,7 @@ a:hover
 {
 	font-size: 50px;
 }
-.logoIG{
-  float: left;
-}
-.logoFb{
-  float: left;
-}
+
 .topmenu{
   float: right;
   margin-top: auto;
@@ -123,7 +120,7 @@ a:hover
 
 .topmenu2 li{
   float: left;
-  margin-left: 20px;
+  margin-left:20px;
 }
 .topmenu2 a{
   color: black;
