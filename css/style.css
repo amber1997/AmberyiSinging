@@ -13,3 +13,7 @@ a:hover
 	color: gray;
 
 }
+.style1 p span
+{
+	font-size: 50px;
+}
