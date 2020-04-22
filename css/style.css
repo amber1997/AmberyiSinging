@@ -42,16 +42,12 @@ table {
   border-spacing: 0;
 }
 
-.GEM img.resize
-{
-  max-width:auto;
-  max-height:auto;
 
-}
 .GEM 
 {
-  float: right;
-  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 200px;
 }
 
 img.resize {
