@@ -1,1 +1,1 @@
-alert("open dialog");
+alert("快關注！！！！");
