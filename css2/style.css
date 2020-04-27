@@ -61,5 +61,14 @@ h1
   margin-left: 50px;
 }
 
+.aside{
+  width: 200px;
+  height: 400px;
+  float: left;
+  background: #ECF5FF;
+  color: #fff
+  margin-right:20px;
+  margin-bottom:30px : 
+}
 
 
