@@ -41,38 +41,94 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-h1
+h1{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.footer{
+  height: 1500px;
+  background: #FFFFBB;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.mid
 {
-  font-size: 40px;
-  margin-bottom: 30px;
+  margin-top: 300px;
+  width: 750px;
+  height: 200px;
+  
+  background: #EE7700;
+  color: #EE7700;
+  
+  margin-left: 33px;
+  margin-right: 50px;
 
 }
-.footer
-{
-  margin-bottom: 50px;
-  }
 
-  .footer2
+.mid1
 {
-  margin-bottom: 50px;
-  }
+  width: 750px;
+  height: 200px;
+  
+  background: #FF44AA;
+  color: #EE7700;
+
+  margin-left: 33px;
+  margin-right: 50px;
+
+}
 
 .Youtube
 {
   font-size: 40px;
+  color: black;
 }
-.fansPage
+.Upload
 {
   font-size: 40px;
+  color: Blue;
+  margin-left: 100px;
+
+
+}
+.FB
+{
+  font-size: 40px;
+  color: black;
 }
 
-.i1
+.likes
 {
-  margin-top: 100px;
-  margin-bottom: 200px;
-  margin-right: 200px;
-  width: 500px;
-  height: 550px;
+  font-size: 40px;
+  color: Blue;
+  margin-left: 100px;
+}
+.Instergram
+{
+  font-size: 40px;
+  color: black;
+}
+
+.subscribes
+{
+  font-size: 40px;
+  color: Blue;
+  margin-left: 100px;
+}
+
+.mid2
+{
+  width: 750px;
+  height: 200px;
+  
+  background: #66FFFF;
+  color: #EE7700;
+
+  margin-left: 33px;
+  margin-right: 50px;
+
+}
+.myPhoto
+{
   float: right;
 }
-
