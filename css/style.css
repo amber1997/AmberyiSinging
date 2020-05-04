@@ -161,5 +161,5 @@ a:hover
 
 .backgroundCol
 {
-  background-color: pink;
+  background:-webkit-linear-gradient(left,#FF60AF,#FFECF5);
 }
