@@ -86,7 +86,7 @@ h1 a
 
 .header{
   height: 100px;
-  background: green;
+  background: linear-gradient(#4EFEB3,green);
   margin-bottom: 20px;
 }
 
@@ -146,7 +146,9 @@ a:hover
 
 .footer{
   height: 2000px;
-  background: orange;
+  /*background-color: orange;*/
+  background: linear-gradient(#FFEEDD,orange);
+
 }
 .box img
 {
@@ -157,4 +159,7 @@ a:hover
   border: 5px solid pink;
 }
 
-
+.backgroundCol
+{
+  background-color: pink;
+}
