@@ -50,6 +50,7 @@ h1{
   background: #FFFFBB;
   margin-right: 50px;
   margin-left: 50px;
+  box-shadow: 6px 6px 6px gray;
 }
 .mid
 {
@@ -62,6 +63,7 @@ h1{
   
   margin-left: 33px;
   margin-right: 50px;
+  box-shadow: 5px 5px 5px gray;
 
 }
 
@@ -75,6 +77,8 @@ h1{
 
   margin-left: 33px;
   margin-right: 50px;
+  box-shadow: 5px 5px 5px gray;
+
 
 }
 
@@ -100,7 +104,7 @@ h1{
 .likes
 {
   font-size: 40px;
-  color: Blue;
+  color: blue;
   margin-left: 100px;
 }
 .Instergram
@@ -126,9 +130,15 @@ h1{
 
   margin-left: 33px;
   margin-right: 50px;
+  box-shadow: 5px 5px 5px gray;
 
 }
 .myPhoto
 {
   float: right;
+}
+.myPhoto img
+{
+  box-shadow: 5px 5px 5px gray;
+  margin-right: 10px;
 }
