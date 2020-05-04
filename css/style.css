@@ -148,5 +148,13 @@ a:hover
   height: 2000px;
   background: orange;
 }
+.box img
+{
+
+  /*background: #000;*/
+
+  border-radius: 50%;
+  border: 5px solid pink;
+}
 
 
