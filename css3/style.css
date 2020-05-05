@@ -47,7 +47,7 @@ h1{
 }
 .footer{
   height: 1500px;
-  background: linear-gradient(#FFFFDF,#F9F900);
+  background:-webkit-linear-gradient(#FFFFDF,#F9F900);
   margin-right: 50px;
   margin-left: 50px;
   box-shadow: 6px 6px 6px gray;
