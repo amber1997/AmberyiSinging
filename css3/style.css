@@ -47,7 +47,7 @@ h1{
 }
 .footer{
   height: 1500px;
-  background: #FFFFBB;
+  background: linear-gradient(#FFFFDF,#F9F900);
   margin-right: 50px;
   margin-left: 50px;
   box-shadow: 6px 6px 6px gray;
@@ -116,7 +116,7 @@ h1{
 .subscribes
 {
   font-size: 40px;
-  color: Blue;
+  color: blue;
   margin-left: 100px;
 }
 
