@@ -18,6 +18,15 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
+/* 重置樣式 */
+*{
+  margin:0;
+  padding: 0;
+
+  font-family: 'Noto Sans TC',snas-serif;
+
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -42,7 +51,25 @@ table {
   border-spacing: 0;
 }
 
+ /*選單樣式--start*/
+ nav ul{
+  list-style-type: none;
+  text-align: center;
+  /* background-color:greenyellow; */
+  color:black;
+}
+nav ul li{
+  display:inline-block ;
+  font-size: 20px;
+  padding: 10px 20px;
+}
 
+nav ul li:hover{
+  cursor: pointer;
+  animation:menuAni .5s alternate infinite; 
+  
+}
+/*選單樣式--end*/
 
 
 .GEM 
@@ -165,7 +192,33 @@ a:hover
   border: 1px solid pink;
 }
 
+
+
+
+/*動畫關鍵影格區塊--start*/
+@keyframes menuAni {
+  from{background-color: transparent;}
+  to{background-color: #9ce90fde;}
+  
+}
+/*動畫關鍵影格區塊--end*/
+
 .backgroundCol
 {
-  background:-webkit-linear-gradient(left,#FF60AF,#FFECF5);
+  background:-webkit-linear-gradient(left,#FF60AF,#FFECF5);/*漸層*/
 }
+
+#container{
+            
+  /* border: solid 1px  red; */
+  /* border-width: 1px 10x 20px 30px; */
+  width: 100%;
+  
+  max-width: 1200px;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  margin: 0 auto;
+
+}
+
