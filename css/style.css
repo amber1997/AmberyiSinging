@@ -208,6 +208,14 @@ a:hover
   background:-webkit-linear-gradient(left,#FF60AF,#FFECF5);/*漸層*/
 }
 
+
+@media screen and (max-width:576px){
+  nav ul li{
+      /* display: block;直排 */
+      padding:5px 0;
+
+  }
+
 #container{
             
   /* border: solid 1px  red; */
@@ -221,4 +229,6 @@ a:hover
   margin: 0 auto;
 
 }
+
+
 
