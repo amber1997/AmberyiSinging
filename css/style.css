@@ -90,10 +90,10 @@ img.resize {
   float:left;
   
  }
- .wrap{
+ /* .wrap{
   margin: 0 auto;
   width: auto;
-}
+} */
 
 h1
 {
@@ -113,11 +113,11 @@ h1 a
 
 
 
-.header{
+/* .header{
   height: 180px;
   background: linear-gradient(#4EFEB3,rgb(33, 187, 33));
   margin-bottom: 20px;
-}
+} */
 
 
 .style2  span
@@ -142,15 +142,15 @@ a:hover
   color: gray;
 
 }
-.style1 p span
+/* .style1 p span
 {
   font-size: 40px;
-}
+} */
 
 .topmenu{
   float: right;
-  margin-top: auto;
-  margin-right: auto;
+  /* margin-top: auto;
+  margin-right: auto; */
   
 }
 .main
@@ -163,7 +163,7 @@ a:hover
 .topmenu li{
   
   float: right;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .topmenu a{
   color: black;
@@ -174,7 +174,7 @@ a:hover
 .topmenu2 li{
   
   float: left;
-  margin-left:20px;
+  margin-left:8px;
 }
 .topmenu2 a{
   color: black;
@@ -182,7 +182,7 @@ a:hover
 }
 
 .footer{
-  height: 2000px;
+  height: 1200px;
   /*background-color: orange;*/
   background: linear-gradient(#FFEEDD,orange);
 
@@ -214,18 +214,8 @@ a:hover
 
 
 @media screen and (max-width:1000px){
-  nav  ul li{
-
-    /* font-size: 10px; */
-    padding: 2px;
-    
-  }
   
-  /* .header
-  {
-    height: 3em;
-    
-  } */
+  
 
   .box img
   {
@@ -233,19 +223,15 @@ a:hover
     height: 40%;
   }
   
-
-  .topmenu{
-    width: 6em;
-    height: 6em;
-  }
   .topmenu2 img {
     
-    width: 4em;
-    height: 4em;
+    width: 5em;
+    height: 5em;
     
   }
-
 }
+
+
 
 #container{
             
@@ -253,7 +239,22 @@ a:hover
   /* border-width: 1px 10x 20px 30px; */
   width: 100%;
   
-  max-width: 1200px;
+  max-width: 500px;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  margin: 0 auto;
+
+}
+
+
+#container_digmusic{
+            
+  /* border: solid 1px  red; */
+  /* border-width: 1px 10x 20px 30px; */
+  width: 100%;
+  
+  max-width: 500px;
   /* margin-left: auto;
   margin-right: auto; */
 
