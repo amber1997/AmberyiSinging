@@ -51,19 +51,24 @@ table {
   border-spacing: 0;
 }
 
- /*選單樣式--start*/
- /* nav ul{
+
+nav ul {
   list-style-type: none;
   text-align: center;
-  /* background-color:greenyellow; */
-  /* color:black;
+  background-color: black;
+  color: white;
+}
 
-}  */
-/* nav ul li{
-  display:inline-block ;
+
+nav ul li {
+  display: inline-block;
   font-size: 20px;
-  padding: 10px 10px;
-} */
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+
 
 nav ul li:hover{
   cursor: pointer;
@@ -90,10 +95,6 @@ img.resize {
   float:left;
   
  }
- /* .wrap{
-  margin: 0 auto;
-  width: auto;
-} */
 
 h1
 {
@@ -112,14 +113,6 @@ h1 a
 }
 
 
-
-/* .header{
-  height: 180px;
-  background: linear-gradient(#4EFEB3,rgb(33, 187, 33));
-  margin-bottom: 20px;
-} */
-
-
 .style2  span
 {
   font-size:60px;
@@ -134,25 +127,18 @@ p
 
 a
 {
+  color:white;
   font-size: auto;
+  text-decoration: none;
 }
 
 a:hover
 {
   color: gray;
-
-}
-/* .style1 p span
-{
-  font-size: 40px;
-} */
-
-.topmenu{
-  float: right;
-  /* margin-top: auto;
-  margin-right: auto; */
   
+
 }
+
 .main
 {
 
@@ -202,7 +188,7 @@ a:hover
 /*動畫關鍵影格區塊--start*/
 @keyframes menuAni {
   from{background-color: transparent;}
-  to{background-color: #9ce90fde;}
+  to{background-color: white;}
   
 }
 /*動畫關鍵影格區塊--end*/
@@ -229,35 +215,23 @@ a:hover
     height: 5em;
     
   }
+
+
+  nav ul li {
+    display: block;
+    font-size: 20px;
+    padding: 10px 20px;
+
 }
 
 
 
 #container{
-            
-  /* border: solid 1px  red; */
-  /* border-width: 1px 10x 20px 30px; */
+ 
   width: 100%;
-  
-  max-width: 500px;
-  /* margin-left: auto;
-  margin-right: auto; */
-
+  max-width: 1200px;
   margin: 0 auto;
 
 }
-
-
-#container_digmusic{
-            
-  /* border: solid 1px  red; */
-  /* border-width: 1px 10x 20px 30px; */
-  width: 100%;
-  
-  max-width: 500px;
-  /* margin-left: auto;
-  margin-right: auto; */
-
-  margin: 0 auto;
 
 }
