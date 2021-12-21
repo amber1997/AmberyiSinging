@@ -52,17 +52,18 @@ table {
 }
 
  /*選單樣式--start*/
- nav ul{
+ /* nav ul{
   list-style-type: none;
   text-align: center;
   /* background-color:greenyellow; */
-  color:black;
-}
-nav ul li{
+  /* color:black;
+
+}  */
+/* nav ul li{
   display:inline-block ;
   font-size: 20px;
-  padding: 10px 20px;
-}
+  padding: 10px 10px;
+} */
 
 nav ul li:hover{
   cursor: pointer;
@@ -81,12 +82,13 @@ nav ul li:hover{
 }
 
 img.resize {
-  max-width:auto;
-  max-height:auto;
+  width:50;
+  height:50;
  }
  img
  {
   float:left;
+  
  }
  .wrap{
   margin: 0 auto;
@@ -142,7 +144,7 @@ a:hover
 }
 .style1 p span
 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .topmenu{
@@ -159,7 +161,8 @@ a:hover
 }
 
 .topmenu li{
-  float: left;
+  
+  float: right;
   margin-right: 20px;
 }
 .topmenu a{
@@ -169,6 +172,7 @@ a:hover
 
 
 .topmenu2 li{
+  
   float: left;
   margin-left:20px;
 }
@@ -209,12 +213,39 @@ a:hover
 }
 
 
-@media screen and (max-width:576px){
-  nav ul li{
-      /* display: block;直排 */
-      padding:5px 0;
+@media screen and (max-width:1000px){
+  nav  ul li{
 
+    font-size: 10px;
+    padding: 1px;
+    
   }
+  
+  .header
+  {
+    height: 3em;
+    
+  }
+
+  .box img
+  {
+    width: 15%;
+    height: 15%;
+  }
+  
+
+  .topmenu{
+    width: 6em;
+    height: 6em;
+  }
+  .topmenu2 img {
+    
+    width: 3em;
+    height: 3em;
+    
+  }
+
+}
 
 #container{
             
@@ -229,6 +260,3 @@ a:hover
   margin: 0 auto;
 
 }
-
-
-
