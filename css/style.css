@@ -168,7 +168,7 @@ a:hover
 }
 
 .footer{
-  height: 1200px;
+  height: 1300px;
   /*background-color: orange;*/
   background: linear-gradient(#FFEEDD,orange);
 
@@ -192,6 +192,8 @@ a:hover
   
 }
 /*動畫關鍵影格區塊--end*/
+
+
 
 .backgroundCol
 {
@@ -222,6 +224,9 @@ a:hover
     font-size: 20px;
     padding: 10px 20px;
 
+  }
+
+  
 }
 
 
@@ -234,4 +239,35 @@ a:hover
 
 }
 
+div.followme{
+ margin-left: 40%;
+  
+}
+
+#changeline{
+
+  color: transparent;
+}
+
+
+div .followme img:hover{
+
+  transform:translateY(-10px);
+}
+
+#myphoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#myphoto div {
+
+  
+  border: solid #888 2px;
+  width: 29%;
+  height: 29%;
+  float: right;
+  margin: 0 2%;
+  box-sizing: border-box;
 }
