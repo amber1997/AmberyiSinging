@@ -203,6 +203,9 @@ a:hover
 
 @media screen and (max-width:1000px){
   
+  .followme{
+    margin-left: 30%;
+  }
   
 
   .box img
@@ -211,12 +214,6 @@ a:hover
     height: 40%;
   }
   
-  .topmenu2 img {
-    
-    width: 5em;
-    height: 5em;
-    
-  }
 
 
   nav ul li {
@@ -226,11 +223,13 @@ a:hover
 
   }
 
-  
+
+    div.followme img
+    {
+      width: 4em;
+      height: 4em;
+    }
 }
-
-
-
 #container{
  
   width: 100%;
