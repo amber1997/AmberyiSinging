@@ -77,15 +77,6 @@ nav ul li:hover{
 }
 /*選單樣式--end*/
 
-
-.GEM 
-{
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 100px;
-  margin-top:100px;      
-}
-
 img.resize {
   width:50;
   height:50;
@@ -157,16 +148,6 @@ a:hover
 }
 
 
-.topmenu2 li{
-  
-  float: left;
-  margin-left:8px;
-}
-.topmenu2 a{
-  color: black;
-  text-decoration: none;
-}
-
 .footer{
   height: 1300px;
   /*background-color: orange;*/
@@ -203,8 +184,10 @@ a:hover
 
 @media screen and (max-width:1000px){
   
+ 
+
   .followme{
-    margin-left: 30%;
+    margin-left: 20%;
   }
   
 
@@ -226,8 +209,8 @@ a:hover
 
     div.followme img
     {
-      width: 4em;
-      height: 4em;
+      width: 3em;
+      height: 3em;
     }
 }
 #container{
@@ -238,8 +221,9 @@ a:hover
 
 }
 
+
 div.followme{
- margin-left: 40%;
+ margin-left: 10%;
   
 }
 
