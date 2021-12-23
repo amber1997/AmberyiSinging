@@ -247,3 +247,8 @@ div .followme img:hover{
   margin: 0 2%;
   box-sizing: border-box;
 }
+
+footer.copyright{
+
+  margin-bottom: 10px;
+}
