@@ -190,7 +190,9 @@ a:hover
     height: 40%;
   }
   
-
+  footer.copyright{
+    margin-top: 0;
+  }
 
   nav ul li {
     display: block;
@@ -250,6 +252,6 @@ div .followme img:hover{
 
 footer.copyright{
 
-  margin-bottom: 10px;
+  margin-top: 40px;
   color:rgb(48, 13, 71);
 }
