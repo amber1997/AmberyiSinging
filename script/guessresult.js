@@ -1,8 +1,11 @@
 window.history.pushState(null,null,document.URL);
+
 window.addEventListener('popstate',function(){
     window.history.pushState(null,null,document.URL);
-    
+    window.location.replace(document.URL);
+
 });
+
 
 var yourinputname=localStorage.getItem('yourinputusername');
 
@@ -49,4 +52,5 @@ document.write('10.'+localStorage.getItem('correctherlove')+'</br>');
 document.write('11.'+localStorage.getItem('correcthervaccine')+'</br></br>');
 
 youscore=0;
+
 
