@@ -15,10 +15,16 @@
     if (window.history && window.history.pushState) {
     $(window).on("popstate", function () {
         window.history.pushState(null, null, "");
+        //window.history.forward(1);
+
+        //history.pushState(null,null,document.URL);
     });
     }
+       //window.history.pushState("forward", null, "");
+        //window.history.forward(1);
+        //history.pushState(null,null,document.URL);
     }
-
+    disableBack();
 </script>
 <body oncontextmenu="return false" onkeydown="if(event.keyCode==8 || event.keyCode==37) return false;" onunload="if(event.clientY<0) document.location=document.location.href" >
 
