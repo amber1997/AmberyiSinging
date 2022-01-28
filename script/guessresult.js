@@ -1,6 +1,7 @@
-history.pushState(null,null,document.URL);
+window.history.pushState(null,null,document.URL);
 window.addEventListener('popstate',function(){
     history.pushState(null,null,document.URL);
+    
 });
 
 var yourinputname=localStorage.getItem('yourinputusername');
@@ -46,5 +47,4 @@ document.write('8.'+localStorage.getItem('correctherloveanimal')+'</br>');
 document.write('9.'+localStorage.getItem('correctherncovid')+'</br>');
 document.write('10.'+localStorage.getItem('correctherlove')+'</br>');
 document.write('11.'+localStorage.getItem('correcthervaccine')+'</br></br>');
-
 
