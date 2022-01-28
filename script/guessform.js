@@ -139,6 +139,7 @@ function processFormData() {
     {
         alert('請輸入您的姓名!');
         correct=0;
+        score=10;
     }
     else
     {
