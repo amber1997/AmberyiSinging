@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
     <title>測驗結果</title>
 </head>
-<body>
+
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+<script>
+    function disableBack() {
+    if (window.history && window.history.pushState) {
+    $(window).on("popstate", function () {
+        window.history.pushState("forward", null, "");
+        window.history.forward(1);
+    });
+    }
+        window.history.pushState("forward", null, "");
+        window.history.forward(1);
+    }
+    disableBack();
+</script>
+<body oncontextmenu="return false" onkeydown="if(event.keyCode==8 || event.keyCode==37) return false;" onunload="if(event.clientY<0) document.location=document.location.href" >
+
+  
+    <!-- <script type="text/javascript" src="script/guessresult.js"></script> -->
 
     
    <h1>對陳羿鈞的了解程度</h1>
