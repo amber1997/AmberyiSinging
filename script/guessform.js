@@ -7,7 +7,7 @@ let hermobandwatchyes='蘋果和蘋果';
 let likefoodyes='馬鈴薯';
 let likeanimalyes='貓';
 let songcovidyes='為你們而作的歌';
-let herloveyes='身高165以上有戴眼鏡';
+let herloveyes='身高165(含)以上有戴眼鏡';
 let vaccineyes='2劑AZ';
 var score=10;
 var correct=0;
@@ -33,7 +33,7 @@ localStorage.setItem('correcthervaccine',vaccineyes);
 
 
 function processFormData() {
-    
+    window.history.forward(1);  
     const hername = document.getElementById('optionhername').value; 
     const hatefood=document.getElementById('optionhatefood').value;
     const pcrexp=document.getElementById('optionpcr').value;
@@ -145,8 +145,13 @@ function processFormData() {
 
         alert('Hi! '+username+'!您對陳羿鈞的了解程度有'+score+'分');
         localStorage.setItem('youscore',score);
-        debugger;
+        
+        
   
     }
+
+    debugger;
+    
+   
    
   }
