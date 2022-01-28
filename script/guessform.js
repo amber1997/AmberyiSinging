@@ -12,6 +12,26 @@ let vaccineyes='2劑AZ';
 var score=10;
 var correct=0;
 
+var youransname,youranshatefood,youranspcrexp,youransherbday,youransjob,youransmobandwatch
+,youranslikefood,youransanimal,youranscovid,youransherlove,youransvaccine,inputusername;
+
+
+
+
+localStorage.setItem('correcthername',hernameyes);
+localStorage.setItem('correctherhatefood',hatefoodyes);
+localStorage.setItem('correctpcrexp',pcrexpyes);
+localStorage.setItem('correctherbdate',herbdateyes);
+localStorage.setItem('correctherjob',herjobyes);
+localStorage.setItem('correcthermobandwatch',hermobandwatchyes);
+localStorage.setItem('correctherlikefood',likefoodyes);
+localStorage.setItem('correctherloveanimal',likeanimalyes);
+localStorage.setItem('correctherncovid',songcovidyes);
+localStorage.setItem('correctherlove',herloveyes);
+localStorage.setItem('correcthervaccine',vaccineyes);
+
+
+
 function processFormData() {
     
     const hername = document.getElementById('optionhername').value; 
@@ -28,6 +48,34 @@ function processFormData() {
 
     var username = document.getElementById("user").value;
 
+
+
+    youransname=hername;
+    youranshatefood=hatefood;
+    youranspcrexp=pcrexp;
+    youransherbday=herbday;
+    youransjob=herjob;
+    youransmobandwatch=hermobandwatch;
+    youranslikefood=likefood;
+    youransanimal=likeanimal;
+    youranscovid=songcovid;
+    youransherlove=herlove;
+    youransvaccine=vaccine;
+    inputusername=username;
+
+    
+    localStorage.setItem('youranshername',youransname);
+    localStorage.setItem('youransherhatefood',youranshatefood);
+    localStorage.setItem('youransherpcrexp',youranspcrexp);
+    localStorage.setItem('youransherbdate',youransherbday);
+    localStorage.setItem('youransherjob',youransjob);
+    localStorage.setItem('youranshermobandwatch',youransmobandwatch);
+    localStorage.setItem('youransherlikefood',youranslikefood);
+    localStorage.setItem('youransherloveanimal',youransanimal);
+    localStorage.setItem('youransherncovid',youranscovid);
+    localStorage.setItem('youransherlove',youransherlove);
+    localStorage.setItem('youranshervaccine',youransvaccine);
+    localStorage.setItem('yourinputusername',inputusername);
     
     if(hername==hernameyes)
     {
@@ -85,7 +133,7 @@ function processFormData() {
     score=score*correct;
 
 
-   
+    
 
     if(username=="")
     {
@@ -94,7 +142,11 @@ function processFormData() {
     }
     else
     {
+
         alert('Hi! '+username+'!您對陳羿鈞的了解程度有'+score+'分');
+        localStorage.setItem('youscore',score);
+        debugger;
+  
     }
    
   }
