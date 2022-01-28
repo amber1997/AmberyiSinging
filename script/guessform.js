@@ -33,7 +33,9 @@ localStorage.setItem('correcthervaccine',vaccineyes);
 
 
 function processFormData() {
+    
     window.history.forward(1);  
+    correct=0;
     const hername = document.getElementById('optionhername').value; 
     const hatefood=document.getElementById('optionhatefood').value;
     const pcrexp=document.getElementById('optionpcr').value;
