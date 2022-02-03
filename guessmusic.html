@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歌曲接龍/猜歌</title>
+    <link rel="stylesheet" href="cssnew/style.css">
+</head>
+<body>
+    <i>歌曲接龍/猜歌</i>
+    <b>:D</b>
+    <form action="guessmemusicresult.html" method="get" id="guessmeform">
+
+           
+        <hr>
+        <label for="user">請輸入您的姓名<input required type="text" id="user" name="user"></label>
+      
+<br>
+
+<label for="option">1.請選擇下一句接唱歌詞：
+
+    
+    <select name="optionhername" id="optionhername">
+        <option value="請選擇" name="optionhername">請選擇</option>
+        <option value="嘟聲幾回全沒回應" name="optionhername">嘟聲幾回全沒回應</option>
+        <option value="我的秒回等你卻是輪迴" name="optionhername">我的秒回等你卻是輪迴</option>
+        <option value="告訴你第一時間要的只是一個陪伴" name="optionhername">告訴你第一時間要的只是一個陪伴</option>
+        <option value="那天半夜我進了醫院" name="optionhername">那天半夜我進了醫院</option>
+    </select>  
+    <br>
+    <br>
+    <audio controls>
+        <source src="songs/ukonwicare.wav" type="audio/wav">
+    </audio>
+</label>
+    
+<br>
+
+<label for="option">2.猜歌名：
+    <select name="optionhatefood" id="optionhatefood">
+        <option value="請選擇" name="optionhername">請選擇</option>
+        <option value="100天" name="optionhatefood">100天</option>
+        <option value="第幾個100天" name="optionhatefood">第幾個100天</option>
+        <option value="終於100天" name="optionhatefood">終於100天</option>
+        <option value="第100天" name="optionhatefood">第100天</option>
+    </select>  
+    <br>
+    <br>
+    <audio controls>
+        <source src="songs/day100.wav" type="audio/wav">
+    </audio>
+</label>
+
+<br>
+<label for="option">3.請選擇下一句接唱歌詞：
+    <select name="optionpcr" id="optionpcr">
+        <option value="請選擇" name="optionpcr">請選擇</option>
+        <option value="可是不知不覺變成習慣" name="optionpcr">可是不知不覺變成習慣</option>
+        <option value="可是不知不覺變成了習慣" name="optionpcr">可是不知不覺變成了習慣</option>
+        <option value="可是我已經變成習慣" name="optionpcr">可是我已經變成習慣</option>
+        <option value="可是我已經變成了習慣" name="optionpcr">可是我已經變成了習慣</option>
+    </select>  
+    <br>
+    <br>
+    <audio controls>
+        <source src="songs/replyontime.wav" type="audio/wav">
+    </audio>
+</label>
+
+<br>
+<label for="option">4.選項中哪個歌詞並不包含於歌曲-我的心會痛 當中？
+    <select name="optionbday" id="optionbday">
+        <option value="請選擇" name="optionbday">請選擇</option>
+        <option value="電話你沒打" name="optionbday">電話你沒打</option>
+        <option value="手機" name="optionbday">手機</option>
+        <option value="開火車" name="optionbday">開火車</option>
+        <option value="知道" name="optionbday">知道</option>
+        <option value="確診" name="optionbday">確診</option>
+    </select>  
+</label>
+
+<br>
+<label for="option">5.選項中哪個歌詞並包含於歌曲-活在當下 當中？
+    <select name="optionjob" id="optionjob">
+        <option value="請選擇" name="optionjob">請選擇</option>
+        <option value="食之無味" name="optionjob">食之無味</option>
+        <option value="活在當下" name="optionjob">活在當下</option>
+        <option value="如此虛偽" name="optionjob">如此虛偽</option>
+        <option value="Pay" name="optionjob">Pay</option>
+        <option value="以上皆非" name="optionjob">以上皆非</option>
+        <option value="以上皆是" name="optionjob">以上皆是</option>
+    </select>  
+</label>
+
+<br>
+
+<label for="option">6.陳羿鈞哪一首歌的歌詞全是中文沒有包含任何英文單字？（注意：縮寫也算）
+    <select name="optionmobile" id="optionmobile">
+        <option value="請選擇" name="optionmobile">請選擇</option>
+        <option value="為你們而作的歌" name="optionmobile">為你們而作的歌</option>
+        <option value="活在當下" name="optionmobile">活在當下</option>
+        <option value="訂閱" name="optionmobile">訂閱</option>
+        <option value="My voice" name="optionmobile">My voice</option>
+        <option value="第100天" name="optionmobile">第100天</option>
+    </select>  
+</label>
+
+<br>
+
+<label for="option">7.陳羿鈞哪一首歌沒有Rap？
+    <select name="optionmlovefood" id="optionmlovefood">
+        <option value="請選擇" name="optionmlovefood">請選擇</option>
+        <option value="你知道你知道我在意你" name="optionmlovefood">你知道你知道我在意你</option>
+        <option value="秒回" name="optionmlovefood">秒回</option>
+        <option value="活在當下" name="optionmlovefood">活在當下</option>
+        <option value="嫁給我吧" name="optionmlovefood">嫁給我吧</option>
+        <option value="以上皆是" name="optionmlovefood">以上皆是</option>
+    </select>  
+</label>
+
+<br>
+
+<label for="option">8.陳羿鈞最哪一首歌的伴奏沒有使用到鼓或是任何節奏樂器？
+    <select name="optionmloveanimal" id="optionmloveanimal">
+        <option value="請選擇" name="optionmloveanimal">請選擇</option>
+        <option value="白芒花" name="optionmloveanimal">白芒花</option>
+        <option value="說好愛" name="optionmloveanimal">說好愛</option>
+        <option value="萬分感動" name="optionmloveanimal">萬分感動</option>
+        <option value="我的心會痛" name="optionmloveanimal">我的心會痛</option>
+    </select>  
+</label>
+
+
+<br>
+
+
+<label for="option">9.陳羿鈞哪一首歌的伴奏完全沒有使用到鋼琴？
+    <select name="optionmedical" id="optionmedical">
+        <option value="請選擇" name="optionmedical">請選擇</option>
+        <option value="秒回" name="optionmedical">秒回</option>
+        <option value="加油別哭" name="optionmedical">加油別哭</option>
+        <option value="為你們而作的歌" name="optionmedical">為你們而作的歌</option>
+        <option value="白芒花" name="optionmedical">白芒花</option>
+        <option value="My voice" name="optionmedical">My voice</option>
+        <option value="永遠愛著你" name="optionmedical">永遠愛著你</option>
+    </select>  
+</label>
+
+<br>
+
+<label for="option">10.填空題：為你們而作的歌詞裡面「讓陽光帶走黑色 的雲多 和__」，另，這兩個字唱起來的音(就原key而言)寫成簡譜為何？
+    <select name="optionlove" id="optionlove">
+        <option value="請選擇" name="optionlove">請選擇</option>
+        <option value="困惑 #4 5" name="optionlove">困惑 #4 5</option>
+        <option value="困惑 b4 5" name="optionlove">困惑 b4 5</option>
+        <option value="迷惑 4 5" name="optionlove">迷惑 4 5</option>
+        <option value="寂寞 #4 5" name="optionlove">寂寞 #4 5</option>
+        <option value="寂寞 #4 b5" name="optionlove">寂寞 #4 b5</option>
+    </select>  
+</label>
+
+<br>
+<label for="option">11.加分題:選項中哪一首歌使用的樂器數量最少？
+    <select name="optionmvaccine" id="optionmvaccine">
+        <option value="請選擇" name="optionmvaccine">請選擇</option>
+        <option value="說好愛" name="optionmvaccine">說好愛</option>
+        <option value="萬分感動" name="optionmvaccine">萬分感動</option>
+        <option value="你知道你知道我在意你" name="optionmvaccine">你知道你知道我在意你</option>
+        <option value="為你們而作的歌" name="optionmvaccine">為你們而作的歌</option>
+        <option value="愛恨" name="optionmvaccine">愛恨</option>
+        <option value="秒回" name="optionmvaccine">秒回</option>
+    </select>  
+</label>
+
+<br>
+<input type="submit" value="送出" style="font-size:20px" onclick="processFormData()">
+<script type="text/javascript"></script>
+<script src="./script/guessmusicform.js"></script>
+
+</form>
+
+</div>
+<br>
+<a href="index.html">
+    <button>回首頁</button>
+</a>
+</body>
+</html>
