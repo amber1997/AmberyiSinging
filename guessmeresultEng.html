@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>Test result</title>
+
+    
+</head>
+
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+<script>
+    function disableBack() {
+    if (window.history && window.history.pushState) {
+    $(window).on("popstate", function () {
+
+        window.history.pushState(null,null,document.URL);
+        //window.location.replace(document.URL);
+        //window.history.pushState(null, null, "");
+        //window.history.forward(1);
+
+        //history.pushState(null,null,document.URL);
+    });
+    }
+       //window.history.pushState("forward", null, "");
+        //window.history.forward(1);
+        //history.pushState(null,null,document.URL);
+    }
+    disableBack();
+</script>
+<body oncontextmenu="return false" onkeydown="if(event.keyCode==8 || event.keyCode==37) return false;" onunload="if(event.clientY<0) document.location=document.location.href" >
+
+    <!-- <input name="print" type="button" value="Print this page"
+    onClick="varitext()"> -->
+    <!-- <script type="text/javascript" src="script/guessresult.js"></script> -->
+
+    
+   <h1>Your score</h1>
+
+   <script src="./script/guessresultEng.js"></script>
+  
+   <br>
+
+   <h1>You can look up answers here:</h1>
+    <ul>
+        <li><a href="https://music.youtube.com/browse/VLOLAK5uy_nm8zXqu0UhihE51VLmq9u_MXjlNDy0rWQ">Everyone listen to this for free:youtube music</a></li>
+        <li><a href="https://www.youtube.com/c/陳羿鈞amberyi/videos">Watch mv via my youtube channel</a></li>
+        <li><a href="hhttps://www.instagram.com/amberyi1110/">Follow my ig and interact with me to get answers.</a></li>
+    </ul>
+
+   <a href="guessmeEng.html">
+    <button>Test again</button>
+    </a>
+
+    <br>
+
+    <a href="indexEng.html"  >
+        <button>Back to homepage</button>
+    </a>
+
+</body>
+</html>
