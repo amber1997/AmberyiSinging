@@ -48,7 +48,17 @@ table {
   font-family: 'Noto Sans TC',snas-serif;
 }
 
+a
+{
+  color: black;
+}
+
+a :hover
+{
+  color:#888;
+}
 .container {
+  
   border: solid 1px red; 
   width: 100%;
   max-width: 1200px;
