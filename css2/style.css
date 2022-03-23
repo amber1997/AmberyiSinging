@@ -132,10 +132,11 @@ section{
   
  #about div{
   border: solid #888 2px;
-  height: 125px;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
   float: left;
   margin: 0 10%;
   box-sizing: border-box;
-  
  }
 }
