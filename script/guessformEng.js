@@ -8,7 +8,7 @@ let likefoodyes='馬鈴薯';
 let likeanimalyes='貓';
 let songcovidyes='為你們而作的歌';
 let herloveyes='身高165(含)以上有戴眼鏡';
-let vaccineyes='2劑AZ';
+let vaccineyes='2劑AZ和1劑高端';
 var score=10;
 var correct=0;
 
