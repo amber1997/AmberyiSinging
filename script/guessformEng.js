@@ -1,26 +1,24 @@
-let hernameyes = '陳鈺燻'; 
+let herschoolyes = '東海大學資工系學士'; 
 let hatefoodyes='以上皆是';
-let pcrexpyes='你知道你知道我在意你';
 let herbdateyes='11月10日';
 let herjobyes='傳產鞋業IT';
 let hermobandwatchyes='蘋果和蘋果';
 let likefoodyes='馬鈴薯';
 let likeanimalyes='貓';
-let songcovidyes='為你們而作的歌';
-let herloveyes='身高165(含)以上有戴眼鏡';
+let songcovidyes='微笑';
+let herloveyes='身高165(含)以上';
 let vaccineyes='2劑AZ和1劑高端';
 var score=10;
 var correct=0;
 
-var youransname,youranshatefood,youranspcrexp,youransherbday,youransjob,youransmobandwatch
+var youransherschool,youranshatefood,youranspcrexp,youransherbday,youransjob,youransmobandwatch
 ,youranslikefood,youransanimal,youranscovid,youransherlove,youransvaccine,inputusername;
 
 
 
 
-localStorage.setItem('correcthername',hernameyes);
+localStorage.setItem('correcthershool',herschoolyes);
 localStorage.setItem('correctherhatefood',hatefoodyes);
-localStorage.setItem('correctpcrexp',pcrexpyes);
 localStorage.setItem('correctherbdate',herbdateyes);
 localStorage.setItem('correctherjob',herjobyes);
 localStorage.setItem('correcthermobandwatch',hermobandwatchyes);
@@ -37,9 +35,8 @@ function processFormData1() {
     window.history.forward(1);  
     correct=0;
     score=10;
-    const hername = document.getElementById('optionhername').value; 
+    const herschool = document.getElementById('optionherschool').value; 
     const hatefood=document.getElementById('optionhatefood').value;
-    const pcrexp=document.getElementById('optionpcr').value;
     const herbday=document.getElementById('optionbday').value;
     const herjob=document.getElementById('optionjob').value;
     const hermobandwatch=document.getElementById('optionmobile').value;
@@ -53,9 +50,8 @@ function processFormData1() {
 
 
 
-    youransname=hername;
+    youransherschool=herschool;
     youranshatefood=hatefood;
-    youranspcrexp=pcrexp;
     youransherbday=herbday;
     youransjob=herjob;
     youransmobandwatch=hermobandwatch;
@@ -67,9 +63,8 @@ function processFormData1() {
     inputusername=username;
 
     
-    localStorage.setItem('youranshername',youransname);
+    localStorage.setItem('youransherschool',youransherschool);
     localStorage.setItem('youransherhatefood',youranshatefood);
-    localStorage.setItem('youransherpcrexp',youranspcrexp);
     localStorage.setItem('youransherbdate',youransherbday);
     localStorage.setItem('youransherjob',youransjob);
     localStorage.setItem('youranshermobandwatch',youransmobandwatch);
@@ -80,7 +75,7 @@ function processFormData1() {
     localStorage.setItem('youranshervaccine',youransvaccine);
     localStorage.setItem('yourinputusername',inputusername);
     
-    if(hername==hernameyes)
+    if(herschool==herschoolyes)
     {
         correct+=1;
     }
@@ -88,10 +83,7 @@ function processFormData1() {
     {
         correct+=1;
     }
-    if(pcrexp==pcrexpyes)
-    {
-        correct+=1;
-    }
+    
     if(herbday==herbdateyes)
     {
         correct+=1;
