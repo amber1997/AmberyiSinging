@@ -207,6 +207,12 @@ a:hover
       width: 5em;
       height: 5em;
     }
+
+    div.followme ul{
+      margin-left: 10%;
+      
+       
+     }
 }
 #container{
  
