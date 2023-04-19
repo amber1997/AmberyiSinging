@@ -57,6 +57,7 @@ nav ul {
   text-align: center;
   background-color: black;
   color: white;
+ 
 }
 
 
@@ -78,8 +79,8 @@ nav ul li:hover{
 /*選單樣式--end*/
 
 img.resize {
-  width:50;
-  height:50;
+  width: 10px;;
+  height: 10px;
  }
  img
  {
@@ -149,7 +150,7 @@ a:hover
 
 
 .footer{
-  height: 1300px;
+  height: 500px;
   /*background-color: orange;*/
   background: linear-gradient(#FFEEDD,orange);
 
@@ -157,7 +158,6 @@ a:hover
 .box img
 {
 
-  /*background: #000;*/
 
   border-radius: 100%;
   border: 1px solid pink;
@@ -211,15 +211,21 @@ a:hover
 #container{
  
   width: 100%;
-  max-width: 1200px;
+  max-width: 400px;
   margin: 0 auto;
+  
 
 }
 
 
-div.followme{
- margin-left: 10%;
+div.followme ul{
+ margin-left: 30%;
+ 
   
+}
+div.followme h1
+{
+  text-align: center;
 }
 
 #changeline{
